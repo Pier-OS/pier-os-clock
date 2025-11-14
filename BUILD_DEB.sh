@@ -26,7 +26,7 @@ Section: utils
 Priority: optional
 Architecture: all
 Depends: python3
-Maintainer: Dogukan Sahil <you@example.com>
+Maintainer: Dogukan Sahil <dogukansahil@protonmail.com>
 Description: Minimal TTY clock tool
  A simple terminal clock that displays a centered HH:MM:SS.
 EOF

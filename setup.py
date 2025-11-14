@@ -17,7 +17,7 @@ setup(
         ],
     },
     author="Dogukan Sahil",
-    author_email="you@example.com",
+    author_email="dogukansahil@protonmail.com",
     description="Minimal terminal clock tool for Linux/WSL",
     long_description=long_description,
     long_description_content_type="text/markdown",
