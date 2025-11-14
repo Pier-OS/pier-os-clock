@@ -10,19 +10,6 @@ A minimalist CLI tool that displays a centered, full-screen clock in the termina
 pip install pier-os-clock
 ```
 
-### Manual Installation
-
-```bash
-chmod +x pier-os-clock
-mv pier-os-clock ~/.local/bin/
-```
-
-### Debian/Ubuntu .deb Package Installation
-
-```bash
-sudo dpkg -i pier-os-clock_1.0.0.deb
-```
-
 ## Usage
 
 ```bash
