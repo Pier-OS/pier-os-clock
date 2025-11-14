@@ -42,12 +42,12 @@ chmod +x BUILD_DEB.sh
 ./BUILD_DEB.sh
 ```
 
-This command creates the `pier-os-clock_1.1.3.deb` file.
+This command creates the `pier-os-clock_1.1.4.deb` file.
 
 ### 3. Test the Package
 
 ```bash
-sudo dpkg -i pier-os-clock_1.1.3.deb
+sudo dpkg -i pier-os-clock_1.1.4.deb
 ```
 
 ### 4. Run
@@ -62,17 +62,17 @@ If you prefer not to use the script:
 
 ```bash
 # Create directories
-mkdir -p pier-os-clock_1.1.3/DEBIAN
-mkdir -p pier-os-clock_1.1.3/usr/bin
+mkdir -p pier-os-clock_1.1.4/DEBIAN
+mkdir -p pier-os-clock_1.1.4/usr/bin
 
 # Copy program
-cp pier_os_clock.py pier-os-clock_1.1.3/usr/bin/pier-os-clock
-chmod +x pier-os-clock_1.1.3/usr/bin/pier-os-clock
+cp pier_os_clock.py pier-os-clock_1.1.4/usr/bin/pier-os-clock
+chmod +x pier-os-clock_1.1.4/usr/bin/pier-os-clock
 
 # Create DEBIAN/control file
-cat > pier-os-clock_1.1.3/DEBIAN/control << EOF
+cat > pier-os-clock_1.1.4/DEBIAN/control << EOF
 Package: pier-os-clock
-Version: 1.1.3
+Version: 1.1.4
 Section: utils
 Priority: optional
 Architecture: all
@@ -83,5 +83,5 @@ Description: Minimal TTY clock tool
 EOF
 
 # Build package
-dpkg-deb --build pier-os-clock_1.1.3
+dpkg-deb --build pier-os-clock_1.1.4
 ```
