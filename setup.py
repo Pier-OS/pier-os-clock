@@ -1,7 +1,3 @@
-"""
-Setup configuration for pier-os-clock package.
-"""
-
 from setuptools import setup
 
 with open("README.md", "r", encoding="utf-8") as fh:
@@ -9,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="pier-os-clock",
-    version="1.1.4",
+    version="1.1.5",
     py_modules=["pier_os_clock"],
     entry_points={
         "console_scripts": [
@@ -39,3 +35,4 @@ setup(
     ],
     keywords="terminal clock tty cli linux",
 )
+
