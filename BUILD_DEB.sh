@@ -1,7 +1,7 @@
 #!/bin/bash
 # Debian package build script
 
-VERSION="1.1.0"
+VERSION="1.1.1"
 PACKAGE_NAME="pier-os-clock"
 PACKAGE_DIR="${PACKAGE_NAME}_${VERSION}"
 
