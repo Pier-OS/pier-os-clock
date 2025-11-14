@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pier-os-clock"
-version = "1.1.4"
+version = "1.1.5"
 description = "Minimal terminal clock tool for Linux/WSL"
 authors = [
     { name = "Dogukan Sahil", email = "dogukansahil@protonmail.com" }
@@ -12,6 +12,20 @@ authors = [
 readme = "README.md"
 license = { text = "Apache-2.0" }
 requires-python = ">=3.7"
+keywords = ["terminal", "clock", "tty", "cli", "linux"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Utilities",
+]
 
 [project.scripts]
 pier-os-clock = "pier_os_clock:main"
