@@ -22,6 +22,10 @@ pip uninstall pier-os-clock
 pier-os-clock
 ```
 
+```bash
+pier-os-clock --version
+```
+
 Press `Ctrl+C` to stop the program.
 
 ## Features
