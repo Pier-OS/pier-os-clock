@@ -10,6 +10,12 @@ A minimalist CLI tool that displays a centered, full-screen clock in the termina
 pip install pier-os-clock
 ```
 
+### Uninstallation
+
+```bash
+pip uninstall pier-os-clock
+```
+
 ## Usage
 
 ```bash
