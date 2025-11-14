@@ -9,7 +9,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="pier-os-clock",
-    version="1.1.1",
+    version="1.1.2",
     py_modules=["pier_os_clock"],
     entry_points={
         "console_scripts": [

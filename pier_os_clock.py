@@ -6,7 +6,7 @@ import signal
 import argparse
 from datetime import datetime
 
-__version__ = "1.1.1"
+__version__ = "1.1.2"
 
 
 def clear_screen():
